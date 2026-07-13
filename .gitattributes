@@ -1,0 +1,7 @@
+# SCM syntax highlighting & preventing 3-way merges
+pixi.lock merge=binary linguist-language=YAML linguist-generated=true -diff
+
+# Bun's text-based lockfile (default since Bun v1.2) is diffable and
+# mergeable like a normal text file, unlike pixi.lock. No merge=binary
+# or -diff needed. Only mark it as generated so it collapses in PR diffs.
+bun.lock linguist-language=JSON-with-Comments linguist-generated=true

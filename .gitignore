@@ -1,0 +1,23 @@
+# VS Code
+.vscode/
+
+# Environments
+.pixi/*
+!.pixi/config.toml
+.env
+node_modules/
+
+# Python-generated files
+__pycache__/
+*.egg-info/
+
+# Docker init files with embedded credentials
+**/init/
+
+# Celery beat persistent scheduler state and pidfile
+celery-beat/
+
+# FastHTML session key generated at startup for Starlette SessionMiddleware;
+# not used by the application since sessions are managed via Redis,
+# but created automatically by FastHTML on every startup
+.sesskey

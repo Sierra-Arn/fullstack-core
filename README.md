@@ -38,6 +38,10 @@ fullstack-core/
 │                           # bootstrapping, infrastructure initialization, and
 │                           # auxiliary utility tasks.
 │
+├── docs/                   # Technical documentation covering project dependencies,
+│                           # codebase layout, and sequence diagrams for key user
+│                           # flows.
+│
 ├── migrations/             # Alembic migration environment and database schema
 │                           # change scripts.
 │
